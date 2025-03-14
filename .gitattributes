@@ -1,0 +1,7 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+Object_Detection/test.zip filter=lfs diff=lfs merge=lfs -text
+Object_Detection/data.zip filter=lfs diff=lfs merge=lfs -text
+Object_Detection/backup/yolov4-obj_best.weights filter=lfs diff=lfs merge=lfs -text
+Object_Detection/backup/yolov4-obj_last.weights filter=lfs diff=lfs merge=lfs -text
+Object_Detection/yolov4.conv.137 filter=lfs diff=lfs merge=lfs -text
